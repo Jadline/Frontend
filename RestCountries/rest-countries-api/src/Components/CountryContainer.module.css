@@ -1,0 +1,25 @@
+.countriescontainer{
+    display : grid;
+    grid-template-columns : repeat(4,1fr);
+    gap:4rem;
+    margin:0 auto;
+    place-items :center;
+    width : 80%;
+
+}
+.darkmode {
+    background-color:#121212;
+    color:#fff;
+}
+@media (max-width:768px){
+    .countriescontainer{
+        grid-template-columns:repeat(2,1fr);
+      
+    }
+}
+@media (max-width:375px){
+    .countriescontainer{
+        grid-template-columns:1fr;
+      
+    }
+}

@@ -1,0 +1,33 @@
+.container {
+    display : flex;
+    justify-content :space-between;
+    margin:0 auto;
+    height : 15vh;
+    background-color :#fff;
+    /* background-color:red; */
+    align-items :center;
+    box-shadow : 0 0.5rem 0.5rem rgba(0,0,0,0.2);
+    margin-bottom : 4.5rem;
+   
+}
+.container h1 {
+    font-size : 2.5rem;
+    margin-left:2rem;
+   
+}
+.modeContainer {
+    display : flex;
+    gap : 0.5rem;
+    font-size : 1.6rem;
+    margin-right :2rem;
+    background-color:transparent;
+    outline:none;
+    border:none;
+    align-items :center;
+    
+} 
+.darkmode {
+    background-color:rgb(78, 76, 76);
+    color:#fff;
+}
+

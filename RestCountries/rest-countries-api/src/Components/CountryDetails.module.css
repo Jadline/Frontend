@@ -1,0 +1,48 @@
+.detailscontainer {
+    margin : 0 auto;
+    /* background-color:red; */
+    /* min-height:100vh; */
+    display : grid;
+    place-items :center;
+    padding-bottom : 5rem;
+    width : 80%;
+}
+.borders {
+    display : flex;
+    /* justify-content : space-between; */
+    /* background-color:blue; */
+    height : 10vh;
+    align-items: center;
+    gap:1.5rem;
+
+}
+.borderitem {
+  border : 1px solid black;
+  padding-inline : 1.5rem;
+}
+.detailscontainer div span {
+    font-weight : 600;
+}
+.detailscontainer div p {
+    font-size : 1.6rem;
+    margin-bottom : 1.5rem;
+    letter-spacing: 2;
+
+}
+/* .detailscontainer div {
+    text-align : center;
+} */
+.name {
+    margin-bottom : 2rem;
+    font-weight :700;
+}
+.detailscontainer div img {
+    margin-bottom :2rem;
+    max-width : 100%;
+    margin-top : 7rem;
+}
+.homebutton {
+    padding-inline:2rem;
+    padding-block:1rem;
+    margin-left : 20rem;
+}
