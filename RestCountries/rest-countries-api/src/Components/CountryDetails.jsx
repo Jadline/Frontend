@@ -30,8 +30,9 @@ function CountryDetails(){
         <SwitchMode/>
         <button className={styles.homebutton} onClick={() => navigate('/')}>&larr; Back</button>
         <div className={styles.detailscontainer}>
-            <div>
+            <div className={styles.details}>
             <img src={currentCountry.flags.png} alt={currentCountry.name}/>
+            <div>
             <p className={styles.name}>{currentCountry.name}</p>
 
             <p><span>Native name:</span> {currentCountry.nativeName}</p>
@@ -39,17 +40,20 @@ function CountryDetails(){
             <p><span>Region:</span>{currentCountry.region}</p>
             <p><span>Sub Region:</span>{currentCountry.subregion}</p>
             <p><span>Capital:</span>{currentCountry.capital}</p>
-
-
-            <p><span>Top Level Domain:</span>{currentCountry.topLevelDomain[0]}</p>
-            <p><span>Currencies:</span>{currencies}</p>
-            <p><span>Languages:</span>{languages}</p>
+            </div>
+            <div>
+                <p><span>Top Level Domain:</span>{currentCountry.topLevelDomain[0]}</p>
+                <p><span>Currencies:</span>{currencies}</p>
+                <p><span>Languages:</span>{languages}</p>
+            </div>
+            <div className={styles.borderdata}>
             {currentCountry.borders && <p><span>Border Countries:</span></p>}
             <div className={styles.borders}>
                {currentCountry.borders?.map((border,index) => {
                 return (<p className={`${styles.borderitem} ${mode && styles.borderstyles}`} key={index}>{border}</p>)
                 
                })}
+            </div>
             </div>
             </div>
         </div>
