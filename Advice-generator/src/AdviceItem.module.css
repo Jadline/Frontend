@@ -1,0 +1,44 @@
+.adviceContent {
+    display : flex;
+    flex-direction : column;
+    max-width : 100%;  
+    align-items :center;
+    padding : 3rem;
+    position:relative;
+    
+}
+.adviceid{
+    color : var(--Neon-Green);
+    font-weight : 700;
+    letter-spacing : 0.2rem;
+    font-size : 0.9rem;
+    margin-bottom : 2rem;
+}
+.advice {
+    font-size:2.2rem;
+    text-align:center;
+    font-weight:800;
+    color: var( --Light-Cyan);
+    margin-bottom : 2rem;
+}
+.image{
+    display : block;
+    width : 100%;
+    position : relative;
+    margin-bottom : 1.8rem;
+   
+}
+.nextButton {
+    background-color : var(--Neon-Green);
+    font-size:2.4rem;
+    padding:1rem;
+    border-radius : 50%;
+    display : flex;
+    align-items : center;
+    justify-content: center;
+    position:absolute;
+    bottom :0;
+    transform:translateY(50%);
+    outline : none;
+    border : none;
+}
