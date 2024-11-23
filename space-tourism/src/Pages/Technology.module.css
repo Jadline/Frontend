@@ -1,0 +1,19 @@
+.technology-container {
+    background-image : url('/technology/background-technology-desktop.jpg');
+    /* height : 100dvh; */
+    background-position : center;
+    background-size : cover;
+    color :#fff;
+}
+.technologydata {
+    display : grid;
+    grid-template-columns : repeat(2,1fr);
+    place-items :center;
+    margin-top : 5rem;
+
+}
+.spaceintro {
+    margin-top :3rem;
+    margin-left :9rem;
+    /* margin-bottom :3rem; */
+}

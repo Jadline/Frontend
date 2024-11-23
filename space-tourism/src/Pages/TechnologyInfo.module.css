@@ -1,0 +1,63 @@
+
+.techbuttons span {
+    width : 5rem;
+    height :5rem;
+    border-radius : 50%;
+    background-color :#fff;
+    display : flex;
+    align-items :center;
+    justify-content :center;
+    color:#000;
+    margin-bottom :2rem;
+    cursor : pointer;
+    font-size :2rem;
+}
+.techinfo {
+    /* display : grid;
+    grid-template-columns : repeat(2,1fr); */
+    /* background-color:purple;
+    height : 100%;
+    padding :3rem; */
+
+    display : flex;
+   
+    
+}
+.spaceintro {
+    grid-column : 1/-1;
+    margin-left : 7rem;
+}
+.techbuttons {
+    /* background-color : blue; */
+    padding :3rem;
+    margin-left : 5rem;
+    display : inline-block;
+    /* display : flex;
+    align-items :center;
+    flex-direction : column; */
+   
+}
+.techcontent {
+    /* background-color :red; */
+    padding:3rem;  
+}
+.term {
+    font-size : 1.6rem;
+    text-transform : uppercase;
+    
+}
+.techname {
+    font-size : 5rem;
+    margin-bottom :2rem;
+    font-family: "Crimson Text", serif;
+}
+.techdescription{
+    font-size : 1.6rem;
+    line-height : 1.7;
+}
+.techImage {
+    display : flex;
+    align-items :center;
+    justify-content :center;
+
+}

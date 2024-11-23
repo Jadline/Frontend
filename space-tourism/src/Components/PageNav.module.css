@@ -1,0 +1,46 @@
+.navigation {
+    display : flex;
+    height : 100%;
+    display : flex;
+    align-items : center;
+    gap : 2rem;
+    font-size : 1.6rem;
+    padding-right : 15rem;
+    position : relative;
+    padding-left :2rem;
+    padding-block : 3rem;
+    
+
+}
+.navigation::after {
+    content : '';
+    display : block;
+    backdrop-filter: blur(0.5rem);
+    background-color : rgba(255,255,255,0.2);
+    width : 100%;
+    position : absolute;
+    top : 0;
+    left : 0;
+    bottom :0;
+    right :0;
+}
+.navigation * {
+    z-index : 2;
+    color : #fff;
+}
+.navigation a {
+    text-decoration : none;
+  
+}
+.header {
+    display : flex;
+    align-items : center;
+    justify-content : space-between;
+    height : 12vh;
+    margin-left : 2rem;
+    padding-top :3rem;
+    
+   
+
+   
+}

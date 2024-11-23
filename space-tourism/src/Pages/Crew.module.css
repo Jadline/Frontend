@@ -1,0 +1,19 @@
+.crewcontainer {
+    background-image : url('/crew/background-crew-desktop.jpg');
+    /* height : 100dvh; */
+    background-position : center;
+    background-size : cover;
+    color : #fff;
+    overflow:auto;
+    
+   
+}
+
+.crewdatainfo{
+    display : grid;
+    grid-template-columns:repeat(2,1fr);
+    place-items :center;
+    margin-top : 10rem;
+    margin-left :7rem;
+    
+}

@@ -1,0 +1,71 @@
+.home-container {
+    background-image : url('/home/background-home-desktop.jpg');
+    height : 100dvh;
+    background-position : center;
+    background-size : cover;
+    color : #fff;
+    font-family: "PT Sans", sans-serif;
+
+   
+    
+}
+.home-content {
+    display : grid;
+    grid-template-columns : repeat(2,1fr);
+    margin-top : 12rem;
+    
+   
+
+
+}
+.exploreContent {
+    display : flex;
+    align-items: center;
+    justify-content :center;
+    /* background-color : purple; */
+    padding :2rem;
+    
+   
+   
+   
+}
+.explore {
+    height : 20rem;
+    width :20rem;
+    border-radius : 50%;
+    background-color :#fff;
+    display : flex;
+    align-items :center;
+    justify-content :center;
+    color :#000;
+    font-size :2.5rem;
+    /* font-family : 'Times New Roman', Times, serif; */
+    
+}
+
+.hometext {
+    display : flex;
+    flex-direction :column;
+    justify-content : center;
+    align-content : center;
+    margin-left : 10rem;
+    /* background-color : blue; */
+    padding : 3rem;
+    font-family: "PT Sans", sans-serif;
+}
+.spaceintro {
+    font-size :1.8rem;
+    margin-bottom:2.5rem;
+}
+.space {
+    font-size : 6rem;
+    text-transform :uppercase;
+    /* font-family : 'Times New Roman', Times, serif; */
+    margin-bottom :3rem;
+    /* font-family: "Playfair Display", serif; */
+    font-family: "Crimson Text", serif;
+}
+.space-text {
+    font-size : 1.5rem;
+    line-height :1.8;
+}

@@ -1,0 +1,24 @@
+.destinationname {
+    font-size :7rem;
+    margin-bottom :2rem;
+    font-family: "Crimson Text", serif;
+}
+.destinationdescription {
+    font-size :1.6rem;
+    line-height :1.8;
+    margin-bottom : 8rem;
+}
+.destinationdata{
+    display : flex;
+    align-items :center;
+    gap :4rem;
+}
+.distancetext,.traveltext{
+    font-size : 1.2rem;
+    margin-bottom:0.5rem;
+    font-family: "Crimson Text", serif;
+}
+.distance,.travel {
+    font-size : 2.2rem;
+    font-family: "Crimson Text", serif;
+}

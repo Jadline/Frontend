@@ -1,0 +1,13 @@
+.marsnav{
+    display : flex;
+    /* justify-content : space-between; */
+    gap : 3rem;
+    font-size : 1.6rem;
+   
+   
+    
+}
+.marsnav a {
+    text-decoration : none;
+    color : #fff;
+}

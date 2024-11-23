@@ -1,0 +1,58 @@
+.destinationContainer{
+    background-image : url('/destination/background-destination-desktop.jpg');
+    /* height : 100dvh; */
+    background-position : center;
+    background-size : cover;
+    color : #fff;
+    /* margin:2rem; */
+
+}
+.destinationName {
+    font-size : 2.5rem;
+    margin-top : 6rem;
+    margin-left :8rem;
+    margin-bottom : 5rem;
+    
+}
+.destination-content {
+    display : grid ;
+    grid-template-columns : repeat(2,1fr);
+    place-items :center;
+    padding:1.5rem;
+    overflow : hidden;
+    
+    
+
+}
+.destinationImage {
+    display : flex;
+    align-items :center;
+    justify-content :center;
+}
+.contentdata {
+   
+    width : 100%;
+    padding :2rem;
+    display : flex;
+    flex-direction : column;
+    justify-content : space-between;
+    height : 100%;
+    /* background-color:orange; */
+
+}
+.marsnav {
+    display : flex;
+    justify-content : flex-end;
+    margin-right : 25%;
+    /* background-color :purple; */
+}
+.destinationImage {
+    display : flex;
+    align-items : flex-start;
+    justify-content : center ;
+    width : 100%;
+    /* background-color : blue; */
+}
+/* .destimg {
+    width : 45%;
+} */
