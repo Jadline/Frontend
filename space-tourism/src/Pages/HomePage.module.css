@@ -5,6 +5,7 @@
     background-size : cover;
     color : #fff;
     font-family: "PT Sans", sans-serif;
+    padding-bottom: 5rem;
 
    
     
@@ -26,6 +27,7 @@
         grid-template-columns : 1fr;
         
     }
+    
 
 }
 .exploreContent {
