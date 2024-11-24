@@ -1,5 +1,7 @@
 import styles from './sharedStyles.module.css'
-function Titan({titandata}){
+import { useSpace } from '../Context/tourismContext'
+function Titan(){
+    const {titandata} = useSpace()
     const {description,distance,images,name,travel} = titandata
     return(
         <div>

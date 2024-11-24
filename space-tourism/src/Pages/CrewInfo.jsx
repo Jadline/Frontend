@@ -1,5 +1,7 @@
 import styles from './CrewInfo.module.css'
-function CrewInfo({crewdata,setIndex}){
+import { useSpace } from "../Context/tourismContext"
+function CrewInfo(){
+    const {crewdata,setIndex} = useSpace()
     const {role,bio,name,images} = crewdata
     return(
         <>

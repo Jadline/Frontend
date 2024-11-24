@@ -1,6 +1,8 @@
 
+import { useSpace } from '../Context/tourismContext'
 import styles from './sharedStyles.module.css'
-function Moon({moondata}){
+function Moon(){
+    const {moondata} = useSpace()
     console.log(moondata)
     const {description,distance,images,name,travel} = moondata
     return(

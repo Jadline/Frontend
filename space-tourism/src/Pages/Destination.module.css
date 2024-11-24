@@ -20,9 +20,19 @@
     place-items :center;
     padding:1.5rem;
     overflow : hidden;
-    
-    
 
+}
+@media (max-width :768px){
+    .destination-content {
+        grid-template-columns : 1fr;
+    }
+    .destinationImage {
+        /* width : 50rem;
+        overflow : hidden; */
+    }
+    .marsnav{
+        margin-bottom : 3rem;
+    }
 }
 .destinationImage {
     display : flex;

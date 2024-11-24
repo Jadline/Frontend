@@ -12,6 +12,11 @@
     margin-top : 5rem;
 
 }
+@media (max-width:768px){
+    .technologydata {
+        grid-template-columns : 1fr;
+    }
+}
 .spaceintro {
     margin-top :3rem;
     margin-left :9rem;

@@ -1,5 +1,5 @@
-import { createContext,useContext } from "react"
-const spaceContext = createContext()
+import { createContext,useContext,useEffect,useState} from "react"
+const SpaceContext = createContext()
 function SpaceProvider({children}){
     const [destinationdata,setDestinationdata] = useState([])
   const[crewdata,setCrewdata] = useState([])
@@ -21,10 +21,16 @@ function SpaceProvider({children}){
     fetchData()
 
   },[])
+  useEffect(() => {
+    const intervalid = setInterval(() => {
+      setIndex(index => index < crewdata.length - 1 ? index + 1 : 0)
+    }, 3000);
+    return () => clearInterval(intervalid)
+  },[crewdata.length])
 
 
     return(
-    <spaceContext.Provider value={{
+    <SpaceContext.Provider value={{
         crewdata : crewdata[index],
         setIndex,
         moondata :destinationdata[0],
@@ -32,17 +38,18 @@ function SpaceProvider({children}){
         europadata : destinationdata[2],
         titandata : destinationdata[3],
         technologydata : technology[technologyIndex],
-        setTechnologyIndex
+        setTechnologyIndex,
+        technologyIndex
 
     }}>
         {children}
-    </spaceContext.Provider>
+    </SpaceContext.Provider>
     )
 
 }
 function useSpace(){
-    const context = useContext(spaceContext)
+    const context = useContext(SpaceContext)
     if(context === undefined) throw new Error('You must have used the context outside the provider')
     return context
 }
-export {useSpace,spaceContext}
+export {useSpace,SpaceProvider}

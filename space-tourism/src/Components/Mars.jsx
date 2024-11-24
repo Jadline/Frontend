@@ -1,5 +1,7 @@
+import { useSpace } from '../Context/tourismContext'
 import styles from './sharedStyles.module.css'
-function Mars({marsdata}){
+function Mars(){
+    const {marsdata} = useSpace()
     const {description,distance,images,name,travel} = marsdata
     return(
         <div className={styles.marscontainer}>

@@ -13,11 +13,7 @@
     font-size :2rem;
 }
 .techinfo {
-    /* display : grid;
-    grid-template-columns : repeat(2,1fr); */
-    /* background-color:purple;
-    height : 100%;
-    padding :3rem; */
+   
 
     display : flex;
    
@@ -32,10 +28,20 @@
     padding :3rem;
     margin-left : 5rem;
     display : inline-block;
-    /* display : flex;
-    align-items :center;
-    flex-direction : column; */
    
+}
+@media (max-width :768px){
+    .techbuttons{
+        display : flex;
+    }
+    .techinfo {
+        flex-direction : column;
+       
+    }
+    .techImage {
+        width : 50rem;
+        overflow : hidden;
+    }
 }
 .techcontent {
     /* background-color :red; */
@@ -60,4 +66,8 @@
     align-items :center;
     justify-content :center;
 
+}
+.activebutton {
+    color :#fff;
+    background-color : #000;
 }

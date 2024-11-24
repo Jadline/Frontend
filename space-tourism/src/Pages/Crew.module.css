@@ -17,3 +17,12 @@
     margin-left :7rem;
     
 }
+@media (max-width : 768px){
+    .crewdatainfo {
+        grid-template-columns : 1fr;
+        margin-left : 0;
+    }
+}
+a:global(.active){
+    border-bottom : 2px solid #fff;
+}

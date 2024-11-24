@@ -1,5 +1,7 @@
+import { useSpace } from '../Context/tourismContext'
 import styles from './sharedStyles.module.css'
-function Europa({europadata}){
+function Europa(){
+    const {europadata} = useSpace()
     const {description,distance,images,name,travel} = europadata
     return(
         <div>
