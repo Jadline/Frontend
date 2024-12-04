@@ -1,0 +1,103 @@
+.job {
+    background-color : #fff;
+    color :#000;
+    margin-bottom : 1.5rem;
+    box-shadow : 0 0.5rem 1.2rem hsl(180, 29%, 50%);
+    display : flex;
+    align-items : center;
+    gap : 1rem;
+    /* border : 2px solid green; */
+    justify-content : space-between;
+    background-color : #fff;
+}
+.jobdetails {
+    display: flex;
+    flex-direction : column;
+  
+    padding : 1rem;
+   
+}
+.skillsfilter {
+    display : flex;
+    align-items : center;
+    margin-bottom : 0.8rem;
+   
+}
+.timeandlocation {
+    display : flex;
+    justify-content : space-between;
+    color :  hsl(180, 8%, 52%);
+}
+.skillset {
+    display : flex;
+    align-items : center;
+    justify-content : center;  
+   
+    flex : 1;
+    gap : 1rem;
+   
+   
+
+}
+.skillset p {
+    background-color : hsl(180, 52%, 96%);
+    padding : 0.3rem;
+    color : hsl(180, 29%, 50%);
+    font-weight : 600;
+}
+.employeeImage {
+   
+    padding : 1rem;
+    max-width : 100%;
+    display : block;
+}
+.jobdata{
+    display : flex;
+    align-items : center;
+    flex : 1;
+   
+}
+.skillsfilter p {
+    margin-right : 1rem;
+    
+}
+.role {
+    color : #000;
+    font-weight : 600;
+    margin-bottom : 0.8rem;
+}
+.skillsfilter p:nth-child(1) {
+    color :  hsl(180, 29%, 50%);
+    font-weight : 500;
+    
+}
+.new{
+    background-color :  hsl(180, 29%, 50%);
+    color :#fff;
+    border-radius:0.5rem;
+    padding-inline : 0.6rem;
+    padding-block : 0.2rem;
+    text-transform : uppercase;
+    font-size:0.7rem;
+}
+.featured{
+    background-color : #000;
+    color : #fff;
+    padding-inline : 0.6rem;
+    padding-block : 0.2rem;
+    border-radius :0.9rem;
+    text-transform : uppercase;
+    font-size : 0.7rem;
+}
+.skillset div:nth-child(1){
+    display : flex;
+    gap : 1rem;
+}
+.skillset div:nth-child(2){
+    display : flex;
+    gap : 1rem;
+}
+.skillset div:nth-child(3){
+    display : flex;
+    gap : 1rem;
+}

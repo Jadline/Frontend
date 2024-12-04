@@ -1,0 +1,51 @@
+.navigation {
+    background-color : #fff;
+    min-height : 8vh;
+    margin-top : 1rem;
+    display : flex;
+    justify-content : space-between;
+    align-items : center;
+    margin-bottom : 2rem;
+    padding : 1rem;
+}
+.filters {
+    list-style : none;
+    display : flex;
+    gap : 0.8rem;
+    margin-left : 1rem;
+    
+
+}
+.filters li {
+    background-color : hsl(180, 52%, 96%);
+    color : hsl(180, 29%, 50%);
+    border-radius: 0.3rem;
+    /* padding : 0.2rem; */
+    /* border-radius : 0.5rem; */
+}
+.filters li button {
+    margin-left : 0.5rem;
+    background-color : hsl(180, 29%, 50%);
+    color :#fff;
+    font-weight : 600;
+    outline : none;
+    border : none;
+    padding-inline : 0.5rem;
+    padding-block: 0.3rem;
+    border-top-right-radius: 0.3rem;
+    border-bottom-right-radius: 0.3rem;
+    
+   
+}
+.filters li button:hover {
+    background-color :#000;
+}
+.filters li span {
+    margin-left : 0.3rem;
+    
+}
+.clear {
+    cursor:pointer;
+    color : hsl(180, 29%, 50%);
+    font-weight : 700;
+}
